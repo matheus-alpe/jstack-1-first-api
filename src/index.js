@@ -26,6 +26,11 @@ const server = http.createServer((request, response) => {
         return;
     }
 
+    response.send = (statusCode, body) => {
+        response.writeHead(statusCode, { 'content-type': 'text/html' });
+        response.end(JSON.stringify(body));
+    };
+
     request.query = Object.fromEntries(parsedUrl.searchParams);
     request.params = { id };
     route.handler(request, response);
