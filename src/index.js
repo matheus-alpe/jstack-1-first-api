@@ -1,6 +1,7 @@
 const http = require('http');
 const { URL } = require('url');
 
+const bodyParser = require('./helpers/bodyParser');
 const routes = require('./routes')
 
 const server = http.createServer((request, response) => {
@@ -33,6 +34,11 @@ const server = http.createServer((request, response) => {
 
     request.query = Object.fromEntries(parsedUrl.searchParams);
     request.params = { id };
+
+    if (['POST', 'PUT', 'PATCH'].includes(request.method)) {
+        return bodyParser(request, () => route.handler(request, response));
+    }
+
     route.handler(request, response);
 });
 
