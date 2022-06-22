@@ -1,0 +1,87 @@
+[
+  {
+    "_id": "2f20a208-7af0-4d87-bbf1-5c6c569e6f6b",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3000/users",
+    "url": "http://localhost:3000/users",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-06-22T02:27:50.638Z",
+    "modified": "2022-06-22T02:30:08.386Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "2a0a8a6c-833f-473c-8fd0-3fbc75475eca",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3000/users/1",
+    "url": "http://localhost:3000/users/1",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-06-22T02:28:50.628Z",
+    "modified": "2022-06-22T02:28:50.717Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "882d6025-c7fc-4bbf-ac47-9a8ea47d7e94",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3000/users",
+    "url": "http://localhost:3000/users",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-06-22T02:29:28.227Z",
+    "modified": "2022-06-22T02:29:28.309Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"name\": \"Pedro\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "ea866709-6959-4a72-9767-59c9fd2149c3",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3000/users/2",
+    "url": "http://localhost:3000/users/2",
+    "method": "PUT",
+    "sortNum": 0,
+    "created": "2022-06-22T02:29:53.236Z",
+    "modified": "2022-06-22T02:29:53.329Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"name\": \"Marcos\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "3ab45efa-6778-4b1c-9c1d-048d7c276e58",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3000/users/2",
+    "url": "http://localhost:3000/users/2",
+    "method": "DELETE",
+    "sortNum": 0,
+    "created": "2022-06-22T02:30:03.075Z",
+    "modified": "2022-06-22T02:30:03.155Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"name\": \"Marcos\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
