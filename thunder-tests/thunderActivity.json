@@ -8,7 +8,7 @@
     "method": "GET",
     "sortNum": 0,
     "created": "2022-06-22T02:27:50.638Z",
-    "modified": "2022-06-22T02:30:08.386Z",
+    "modified": "2022-06-22T02:34:43.682Z",
     "headers": [],
     "params": [],
     "tests": []
@@ -22,7 +22,7 @@
     "method": "GET",
     "sortNum": 0,
     "created": "2022-06-22T02:28:50.628Z",
-    "modified": "2022-06-22T02:28:50.717Z",
+    "modified": "2022-06-22T02:34:45.915Z",
     "headers": [],
     "params": [],
     "tests": []
@@ -55,7 +55,7 @@
     "method": "PUT",
     "sortNum": 0,
     "created": "2022-06-22T02:29:53.236Z",
-    "modified": "2022-06-22T02:29:53.329Z",
+    "modified": "2022-06-22T02:35:01.023Z",
     "headers": [],
     "params": [],
     "body": {
@@ -74,7 +74,7 @@
     "method": "DELETE",
     "sortNum": 0,
     "created": "2022-06-22T02:30:03.075Z",
-    "modified": "2022-06-22T02:30:03.155Z",
+    "modified": "2022-06-22T02:34:54.116Z",
     "headers": [],
     "params": [],
     "body": {
